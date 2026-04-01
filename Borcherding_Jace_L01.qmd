@@ -1,8 +1,8 @@
 ---
 title: "L01 Review"
 subtitle: "Data Science 3 with R (STAT 301-3)"
-author: "YOUR NAME"
-pagetitle: "L01 YOUR NAME"
+author: "Jace Borcherding"
+pagetitle: "L01 Jace Borcherding"
 date: today
 
 format:
@@ -28,7 +28,7 @@ citation-location: margin
 
 To link to your github **repo**sitory, appropriately edit the example link below. Meaning replace `https://your-github-repo-url` with your github repo url. Suggest verifying the link works before submitting.
 
-[https://your-github-repo-url](https://your-github-repo-url)
+[Jace's Repo Link](https://github.com/stat301-3-2026-spring/l01-review-jaceborch-1)
 :::
 
 ## Overview
