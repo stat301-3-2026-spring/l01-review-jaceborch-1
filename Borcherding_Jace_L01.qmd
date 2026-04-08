@@ -26,7 +26,6 @@ citation-location: margin
 ::: {.callout-tip icon="false"}
 ## Github Repo Link
 
-To link to your github **repo**sitory, appropriately edit the example link below. Meaning replace `https://your-github-repo-url` with your github repo url. Suggest verifying the link works before submitting.
 
 [Jace's Repo Link](https://github.com/stat301-3-2026-spring/l01-review-jaceborch-1)
 :::
@@ -46,7 +45,23 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+1. Define Problem (classification/regression, target variable)
+
+2. Collect Data and EDA
+
+3. Split Data (training/testing)
+
+4. Recipe Creation (Based on EDA)
+
+5. Resampling set up 
+
+6. Choose Model(s)
+
+7. Train model
+
+8. Tune hyperparameters
+
+9. Train and evaluate final model
 
 :::
 
@@ -57,7 +72,7 @@ Explain the difference between supervised and unsupervised learning.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Supervised learning has a specific target output, whereas unsupervised learning does not have a target output, and instead aims to discover hidden patterns or structure in the data.
 
 :::
 
@@ -70,7 +85,7 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+These models focus on describing patterns or relationships in the data and do not necessarily make predictions.
 
 :::
 
@@ -79,7 +94,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+These models focus on relationships between variables and aim to determine whether a variable has an impact on an outcome.
 
 :::
 
@@ -88,7 +103,8 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+These models are used to predict future or unseen outcomes.
+
 
 :::
 
@@ -103,7 +119,7 @@ What does it mean to be a mechanistic model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+A mechanistic model uses known/assumed structures to explain new outcomes.
 
 :::
 
@@ -114,7 +130,7 @@ What does it mean to be an empirically driven model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+An empirically driven model is based on observed data, identifying patterns directly from it with minimal assumptions.
 
 :::
 
@@ -125,7 +141,7 @@ How does the mechanistic and empirically driven model terminology relate to the 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Mechanistic models are often parametric because they are built from equations with a fixed structure, but not always. Empirically driven models are often nonparametric because they rely on data to determine structure. Neither are strict relationships however. The difference is that mechanistic vs empirical is where the model comes from, while parametric vs nonparametric is how rigid of flexible the form is.
 
 :::
 
@@ -136,7 +152,7 @@ In general, is a mechanistic or empirically driven model easier to interpret? Ex
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Mechanistic models because they are built from known/assumed rules or equations so the model is tied to real-world behavior. 
 
 :::
 
@@ -147,7 +163,7 @@ How does mechanistic and empirically driven model terminology relate to the idea
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Generally, mechanistic models are less flexible as they are built from fixed structures, whereas empirically driven models learn patterns straight from the data and can adapt to fit complex relationships.
 
 :::
 
@@ -158,7 +174,7 @@ Describe the bias-variance trade-off when considering the use of a mechanistic o
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Mechanistic models typically have higher bias, but lower variance, so they may underfit. Empirical models have lower bias, but more variance, so they are more flexible, so could potentially overfit.
 
 :::
 
@@ -169,7 +185,7 @@ Explain the difference between a regression and classification machine learning 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+A regression problem has the goal of predicting a continuous numeric value, whereas a classification problem has the goal of predicting a category for the target variable.
 
 :::
 
@@ -180,7 +196,7 @@ When splitting the data, why is it useful to stratify by the outcome/target vari
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+It prevents imbalance in splits especially when the original data is imbalanced. It helps so that each part of the split does not under or over represent a certain class in the data.
 
 :::
 
@@ -191,7 +207,7 @@ Briefly describe how v-fold cross validation with repeats is used to estimate te
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+This type of cross validation splits the data into v folds, and the model is trained v times, holding out on fold for validation. RMSE is computed on the held out fold. We use this process because it is more reliable test of performance than a single split. The repeats esnure the estimate is not overly dependent on one specific fold.
 
 :::
 
@@ -202,7 +218,7 @@ When might we use a bootstrap resampling procedure instead of v-fold cross valid
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Bootstrap procedures naturally provide an estimate of RMSE values, which makes it easier to quantify uncertainty. It would also be better for imbalanced and small datasets, because in these instances v fold CV can produce unstable folds.
 
 :::
 
@@ -213,8 +229,7 @@ Briefly describe model tuning and why we use it.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+Process of selecting best hyperparameter value within a specified range. We use it to find the best hyperparameters to generalize to new data. 
 :::
 
 ### Question 10 
@@ -224,7 +239,7 @@ What are two common performance metrics when dealing with a regression ML proble
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+RMSE, MAE
 
 :::
 
@@ -233,8 +248,7 @@ What are two common performance metrics when dealing with a classification ML pr
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+Accuracy, ROC AUC
 :::
 
 ### Question 11
@@ -248,7 +262,7 @@ A company with a subscription based service (for example Netflix, Disney+, New Y
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Inferential, because it is looking to determine the relationship between a specific variable's impact on customer churn.
 
 :::
 
@@ -257,7 +271,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Prediction, it is trying to predict the odds that a customer will churn in the next month.
 
 :::
 
