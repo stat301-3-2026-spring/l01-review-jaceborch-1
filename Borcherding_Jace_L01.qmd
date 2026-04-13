@@ -1,8 +1,10 @@
 ---
-title: "L01 Review"
-subtitle: "Data Science 3 with R (STAT 301-3)"
+title: "Self Evaluation L01 Review"
+subtitle: |
+  | Data Science 2 with R 
+  | STAT 301-3
 author: "Jace Borcherding"
-pagetitle: "L01 Jace Borcherding"
+pagetitle: "Self Evaluation L01 Jace Borcherding"
 date: today
 
 format:
@@ -17,10 +19,11 @@ format:
 
 execute:
   warning: false
+  error: true
 
 from: markdown+emoji
 reference-location: margin
-citation-location: margin   
+citation-location: margin 
 ---
 
 ::: {.callout-tip icon="false"}
@@ -65,6 +68,20 @@ Train and evaluate final model
 
 :::
 
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+4
+
+
+## Explanation
+
+I missed a few small steps, but overall, I had the right idea. I missed things like data preparation and selecting the best model and flipped recipe creation and resampling, but had most of the steps correct and in the right order.
+
+
 ### Question 2
 
 Explain the difference between supervised and unsupervised learning.
@@ -75,6 +92,19 @@ Explain the difference between supervised and unsupervised learning.
 Supervised learning has a specific target output, whereas unsupervised learning does not have a target output, and instead aims to discover hidden patterns or structure in the data.
 
 :::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+4
+
+## Explanation
+
+I was almost perfect on this question, I just did not fully explain supervised learning. I defined it correctly, but did not include the goal of this type of learning.
+
 
 ### Question 3 
 
@@ -89,6 +119,21 @@ These models focus on describing patterns or relationships in the data and do no
 
 :::
 
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+5
+
+## Explanation
+
+My definition was very close to the solution.
+
+
+:::
+
 #### Inferential Models
 
 ::: {.callout-tip icon="false"}
@@ -98,12 +143,40 @@ These models focus on relationships between variables and aim to determine wheth
 
 :::
 
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+5
+
+## Explanation
+
+My explanation is very close to the colution again.
+
+:::
+
 #### Predictive Models
 
 ::: {.callout-tip icon="false"}
 ## Solution
 
 These models are used to predict future or unseen outcomes.
+
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+5
+
+## Explanation
+
+My answer was very close to the actual answer.
 
 :::
 
@@ -122,6 +195,21 @@ A mechanistic model uses known/assumed structures to explain new outcomes.
 
 :::
 
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+4
+
+## Explanation
+
+I could have explained more, such as examples of this type of model and how flexible it is. I could have also noted computation time.
+
+
+:::
+
 #### Part (b)
 
 What does it mean to be an empirically driven model?
@@ -133,6 +221,23 @@ An empirically driven model is based on observed data, identifying patterns dire
 
 :::
 
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+4
+
+## Explanation
+
+I could have explained more, such as examples of this type of model and how flexible it is. I could have also noted computation time.
+
+
+
+
+:::
+
 #### Part (c)
 
 How does the mechanistic and empirically driven model terminology relate to the parametric and nonparametric model terminology? 
@@ -141,6 +246,21 @@ How does the mechanistic and empirically driven model terminology relate to the 
 ## Solution
 
 Mechanistic models are often parametric because they are built from equations with a fixed structure, but not always. Empirically driven models are often nonparametric because they rely on data to determine structure. Neither are strict relationships however. The difference is that mechanistic vs empirical is where the model comes from, while parametric vs nonparametric is how rigid of flexible the form is.
+
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+5
+
+## Explanation
+
+I was correct.
+
 
 :::
 
@@ -157,6 +277,19 @@ Mechanistic models because they are built from known/assumed rules or equations 
 
 :::
 
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+5
+
+## Explanation
+
+I basically said the same thing as the solution in different words.
+
+:::
+
 #### Part (e)
 
 How does mechanistic and empirically driven model terminology relate to the idea of model flexibility? That is, which would be more or less flexible than the other.
@@ -165,6 +298,22 @@ How does mechanistic and empirically driven model terminology relate to the idea
 ## Solution
 
 Generally, mechanistic models are less flexible as they are built from fixed structures, whereas empirically driven models learn patterns straight from the data and can adapt to fit complex relationships.
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+5
+
+## Explanation
+
+I was correct.
+
+
+
 :::
 
 #### Part (f)
@@ -178,6 +327,22 @@ Mechanistic models typically have higher bias, but lower variance, so they may u
 
 :::
 
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+5
+
+
+## Explanation
+
+My answer was close to the solution.
+
+
+:::
+
 ### Question 5 
 
 Explain the difference between a regression and classification machine learning (ML) problems.
@@ -186,6 +351,20 @@ Explain the difference between a regression and classification machine learning 
 ## Solution
 
 A regression problem has the goal of predicting a continuous numeric value, whereas a classification problem has the goal of predicting a category for the target variable.
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+5
+
+## Explanation
+
+I had the correct answer.
+
 :::
 
 ### Question 6 
@@ -199,6 +378,20 @@ It prevents imbalance in splits especially when the original data is imbalanced.
 
 :::
 
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+5
+
+## Explanation
+ My answer answer was close to the solution.
+
+
+:::
+
 ### Question 7 
 
 Briefly describe how v-fold cross validation with repeats is used to estimate test RMSE. Also provide an explanation of why we use it. 
@@ -209,6 +402,22 @@ Briefly describe how v-fold cross validation with repeats is used to estimate te
 This type of cross validation splits the data into v folds, and the model is trained v times, holding out on fold for validation. RMSE is computed on the held out fold. We use this process because it is more reliable test of performance than a single split. The repeats esnure the estimate is not overly dependent on one specific fold.
 :::
 
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+5
+
+## Explanation
+I touched on eveything that is mentioned in the solution, they just provided more explanation.
+
+
+
+
+:::
+
 ### Question 8
 
 When might we use a bootstrap resampling procedure instead of v-fold cross validation to estimate test RMSE?
@@ -217,6 +426,20 @@ When might we use a bootstrap resampling procedure instead of v-fold cross valid
 ## Solution
 
 Bootstrap procedures naturally provide an estimate of RMSE values, which makes it easier to quantify uncertainty. It would also be better for imbalanced and small datasets, because in these instances v fold CV can produce unstable folds.
+
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+5
+
+## Explanation
+
+My answer was ver close to the solution.
+
 
 :::
 
@@ -231,6 +454,21 @@ Process of selecting best hyperparameter value within a specified range. We use 
 
 :::
 
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+4
+
+## Explanation
+
+I needed more explanation of what a hyperparameter is and why we need to use them.
+
+
+:::
+
 ### Question 10 
 
 What are two common performance metrics when dealing with a regression ML problem?
@@ -242,12 +480,40 @@ RMSE, MAE
 
 :::
 
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+5
+
+## Explanation
+
+I listed two correct options.
+
+
+:::
+
 What are two common performance metrics when dealing with a classification ML problem?
 
 ::: {.callout-tip icon="false"}
 ## Solution
 
 Accuracy, ROC AUC
+
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+5
+
+## Explanation
+
+I listed two correct options.
 
 :::
 
@@ -266,6 +532,21 @@ Inferential, because it is looking to determine the relationship between a speci
 
 :::
 
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+5
+
+## Explanation
+
+I was correct.
+
+
+
+:::
+
 2. How likely is it that a customer will churn in the next month (leave the company/drop the service)?
 
 ::: {.callout-tip icon="false"}
@@ -273,6 +554,20 @@ Inferential, because it is looking to determine the relationship between a speci
 
 
 Prediction, it is trying to predict the odds that a customer will churn in the next month.
+
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+4
+
+## Explanation
+
+It is called predictive not prediction, but otherwise my answer and explanation were correct.
 
 :::
 
