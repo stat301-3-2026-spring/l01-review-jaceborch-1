@@ -45,23 +45,7 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Define Problem (classification/regression, target variable)
-
-Collect Data and EDA
-
-Split Data (training/testing)
-
-Recipe Creation (Based on EDA)
-
-Resampling set up
-
-Choose Model(s)
-
-Train model
-
-Tune hyperparameters
-
-Train and evaluate final model
+YOUR SOLUTION HERE
 
 :::
 
@@ -72,7 +56,7 @@ Explain the difference between supervised and unsupervised learning.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Supervised learning has a specific target output, whereas unsupervised learning does not have a target output, and instead aims to discover hidden patterns or structure in the data.
+YOUR SOLUTION HERE
 
 :::
 
@@ -85,7 +69,7 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 ::: {.callout-tip icon="false"}
 ## Solution
 
-These models focus on describing patterns or relationships in the data and do not necessarily make predictions.
+YOUR SOLUTION HERE
 
 :::
 
@@ -94,7 +78,7 @@ These models focus on describing patterns or relationships in the data and do no
 ::: {.callout-tip icon="false"}
 ## Solution
 
-These models focus on relationships between variables and aim to determine whether a variable has an impact on an outcome.
+YOUR SOLUTION HERE
 
 :::
 
@@ -103,7 +87,7 @@ These models focus on relationships between variables and aim to determine wheth
 ::: {.callout-tip icon="false"}
 ## Solution
 
-These models are used to predict future or unseen outcomes.
+YOUR SOLUTION HERE
 
 :::
 
@@ -118,7 +102,7 @@ What does it mean to be a mechanistic model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-A mechanistic model uses known/assumed structures to explain new outcomes.
+YOUR SOLUTION HERE
 
 :::
 
@@ -129,7 +113,7 @@ What does it mean to be an empirically driven model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-An empirically driven model is based on observed data, identifying patterns directly from it with minimal assumptions.
+YOUR SOLUTION HERE
 
 :::
 
@@ -140,7 +124,7 @@ How does the mechanistic and empirically driven model terminology relate to the 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Mechanistic models are often parametric because they are built from equations with a fixed structure, but not always. Empirically driven models are often nonparametric because they rely on data to determine structure. Neither are strict relationships however. The difference is that mechanistic vs empirical is where the model comes from, while parametric vs nonparametric is how rigid of flexible the form is.
+YOUR SOLUTION HERE
 
 :::
 
@@ -151,9 +135,7 @@ In general, is a mechanistic or empirically driven model easier to interpret? Ex
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Mechanistic models because they are built from known/assumed rules or equations so the model is tied to real-world behavior.
-
-
+YOUR SOLUTION HERE
 
 :::
 
@@ -164,7 +146,8 @@ How does mechanistic and empirically driven model terminology relate to the idea
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Generally, mechanistic models are less flexible as they are built from fixed structures, whereas empirically driven models learn patterns straight from the data and can adapt to fit complex relationships.
+YOUR SOLUTION HERE
+
 :::
 
 #### Part (f)
@@ -174,7 +157,7 @@ Describe the bias-variance trade-off when considering the use of a mechanistic o
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Mechanistic models typically have higher bias, but lower variance, so they may underfit. Empirical models have lower bias, but more variance, so they are more flexible, so could potentially overfit.
+YOUR SOLUTION HERE
 
 :::
 
@@ -185,7 +168,8 @@ Explain the difference between a regression and classification machine learning 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-A regression problem has the goal of predicting a continuous numeric value, whereas a classification problem has the goal of predicting a category for the target variable.
+YOUR SOLUTION HERE
+
 :::
 
 ### Question 6 
@@ -195,7 +179,7 @@ When splitting the data, why is it useful to stratify by the outcome/target vari
 ::: {.callout-tip icon="false"}
 ## Solution
 
-It prevents imbalance in splits especially when the original data is imbalanced. It helps so that each part of the split does not under or over represent a certain class in the data.
+YOUR SOLUTION HERE
 
 :::
 
@@ -206,7 +190,8 @@ Briefly describe how v-fold cross validation with repeats is used to estimate te
 ::: {.callout-tip icon="false"}
 ## Solution
 
-This type of cross validation splits the data into v folds, and the model is trained v times, holding out on fold for validation. RMSE is computed on the held out fold. We use this process because it is more reliable test of performance than a single split. The repeats esnure the estimate is not overly dependent on one specific fold.
+YOUR SOLUTION HERE
+
 :::
 
 ### Question 8
@@ -216,7 +201,7 @@ When might we use a bootstrap resampling procedure instead of v-fold cross valid
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Bootstrap procedures naturally provide an estimate of RMSE values, which makes it easier to quantify uncertainty. It would also be better for imbalanced and small datasets, because in these instances v fold CV can produce unstable folds.
+YOUR SOLUTION HERE
 
 :::
 
@@ -227,7 +212,7 @@ Briefly describe model tuning and why we use it.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Process of selecting best hyperparameter value within a specified range. We use it to find the best hyperparameters to generalize to new data.
+YOUR SOLUTION HERE
 
 :::
 
@@ -238,7 +223,7 @@ What are two common performance metrics when dealing with a regression ML proble
 ::: {.callout-tip icon="false"}
 ## Solution
 
-RMSE, MAE
+YOUR SOLUTION HERE
 
 :::
 
@@ -247,7 +232,7 @@ What are two common performance metrics when dealing with a classification ML pr
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Accuracy, ROC AUC
+YOUR SOLUTION HERE
 
 :::
 
@@ -262,7 +247,7 @@ A company with a subscription based service (for example Netflix, Disney+, New Y
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Inferential, because it is looking to determine the relationship between a specific variable’s impact on customer churn.
+YOUR SOLUTION HERE
 
 :::
 
@@ -271,8 +256,7 @@ Inferential, because it is looking to determine the relationship between a speci
 ::: {.callout-tip icon="false"}
 ## Solution
 
-
-Prediction, it is trying to predict the odds that a customer will churn in the next month.
+YOUR SOLUTION HERE
 
 :::
 
